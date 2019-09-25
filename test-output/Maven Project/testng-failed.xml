@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Maven Project]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Learning Maven(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.learningmavenproject.testCases.TC_LogInTest_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.learningmavenproject.testCases.TC_LogInTest_001 -->
+    </classes>
+  </test> <!-- Learning Maven(failed) -->
+</suite> <!-- Failed suite [Maven Project] -->
