@@ -1,0 +1,9 @@
+2019-09-25 22:00:06,030 - LearningMavenProjectV1 -INFO - URL is opened
+2019-09-25 22:00:06,237 - LearningMavenProjectV1 -INFO - Entered UserName
+2019-09-25 22:00:06,335 - LearningMavenProjectV1 -INFO - Entered Password
+2019-09-25 22:00:06,336 - LearningMavenProjectV1 -ERROR - This is error message
+2019-09-25 22:00:07,192 - LearningMavenProjectV1 -INFO - Login Test Passed
+2019-09-25 22:09:07,873 - LearningMavenProjectV1 -INFO - URL is opened
+2019-09-25 22:09:08,073 - LearningMavenProjectV1 -INFO - Entered UserName
+2019-09-25 22:09:08,159 - LearningMavenProjectV1 -INFO - Entered Password
+2019-09-25 22:09:09,102 - LearningMavenProjectV1 -INFO - Login Test Passed
