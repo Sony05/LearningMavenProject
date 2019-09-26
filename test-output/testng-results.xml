@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-26T21:01:01Z" name="MavenLearningProject" finished-at="2019-09-26T21:01:08Z" duration-ms="6962">
+  <suite started-at="2019-09-26T21:34:19Z" name="MavenLearningProject" finished-at="2019-09-26T21:34:26Z" duration-ms="7953">
     <groups>
     </groups>
-    <test started-at="2019-09-26T21:01:01Z" name="MavenLearning Test" finished-at="2019-09-26T21:01:08Z" duration-ms="6962">
+    <test started-at="2019-09-26T21:34:19Z" name="MavenLearning Test" finished-at="2019-09-26T21:34:26Z" duration-ms="7953">
       <class name="com.learningmavenproject.testCases.TC_LogInTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.learningmavenproject.testCases.TC_LogInTest_001@2ed0fbae]" started-at="2019-09-26T21:01:01Z" name="setup" finished-at="2019-09-26T21:01:06Z" duration-ms="5689" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.learningmavenproject.testCases.TC_LogInTest_001@14a2f921]" started-at="2019-09-26T21:34:19Z" name="setup" finished-at="2019-09-26T21:34:25Z" duration-ms="6210" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.learningmavenproject.testCases.TC_LogInTest_001@2ed0fbae]" started-at="2019-09-26T21:01:06Z" name="loginTest" finished-at="2019-09-26T21:01:08Z" duration-ms="1079" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.learningmavenproject.testCases.TC_LogInTest_001@14a2f921]" started-at="2019-09-26T21:34:25Z" name="loginTest" finished-at="2019-09-26T21:34:26Z" duration-ms="1096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learningmavenproject.testCases.TC_LogInTest_001@2ed0fbae]" started-at="2019-09-26T21:01:08Z" name="tearDown" finished-at="2019-09-26T21:01:08Z" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learningmavenproject.testCases.TC_LogInTest_001@14a2f921]" started-at="2019-09-26T21:34:26Z" name="tearDown" finished-at="2019-09-26T21:34:26Z" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

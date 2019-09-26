@@ -3,7 +3,9 @@
 
 <suite name="MavenLearningProject">
 
-
+	<listeners>
+	<listener class-name = "com.learningmavenproject.utilities.Reporting"/>
+	</listeners>
 
 	<test name="MavenLearning Test">
 		<parameter name="browser" value="chrome" />

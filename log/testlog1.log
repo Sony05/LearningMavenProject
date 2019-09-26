@@ -43,3 +43,7 @@
 2019-09-26 23:01:07,163 [main] INFO LearningMavenProjectV1 - Entered UserName
 2019-09-26 23:01:07,250 [main] INFO LearningMavenProjectV1 - Entered Password
 2019-09-26 23:01:08,027 [main] INFO LearningMavenProjectV1 - Login Test Passed
+2019-09-26 23:34:25,602 [main] INFO LearningMavenProjectV1 - URL is opened
+2019-09-26 23:34:25,830 [main] INFO LearningMavenProjectV1 - Entered UserName
+2019-09-26 23:34:25,922 [main] INFO LearningMavenProjectV1 - Entered Password
+2019-09-26 23:34:26,687 [main] INFO LearningMavenProjectV1 - Login Test Passed
