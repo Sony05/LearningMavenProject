@@ -1,4 +1,10 @@
 package com.learningmavenproject.testCases;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.learningmavenproject.pageObjects.LoginPage;
@@ -11,7 +17,6 @@ public class TC_LogInTest_001 extends BaseClass
 	public void loginTest()
 	{
 		
-		driver.get(baseUrl);
 		logger.info("URL is opened");
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(userName);
@@ -23,12 +28,12 @@ public class TC_LogInTest_001 extends BaseClass
 
 		if (driver.getTitle().equals("Guru99 Bank Manager HomePage"))
 		{
-		Assert.assertTrue(true);
+		AssertJUnit.assertTrue(true);
 		logger.info("Login Test Passed");
 
 	}
 		else {
-		Assert.assertTrue(false);
+		AssertJUnit.assertTrue(false);
 		logger.info("Login Test failed");
 
 		

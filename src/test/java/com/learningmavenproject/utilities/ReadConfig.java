@@ -9,7 +9,7 @@ public class ReadConfig {
 	
 	public ReadConfig()
 	{
-		File src = new File(".Configuration/config.properties");
+		File src = new File("./Configuration/config.properties");
 		try {
 			FileInputStream fis = new FileInputStream(src);
 			pro = new Properties();
@@ -17,7 +17,7 @@ public class ReadConfig {
 		}
 		catch(Exception e) 
 		{
-			System.out.println(e.getStackTrace());
+			System.out.println("Exception is :" + e.getMessage());
 		}
 	}
 	 
@@ -31,8 +31,8 @@ public class ReadConfig {
 	{
 		String username = pro.getProperty("userName");
 		return username;
-		
 	}
+	
 	public String getPassword()
 	{
 		String password = pro.getProperty("password");
@@ -53,6 +53,8 @@ public class ReadConfig {
 		return firefoxpath;
 		
 	}
+
+	
 
 
 }
