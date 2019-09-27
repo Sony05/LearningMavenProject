@@ -10,7 +10,8 @@
 	<test name="MavenLearning Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name = "com.learningmavenproject.testCases.TC_LogInTest_001"/>
+		<!-- 	<class name = "com.learningmavenproject.testCases.TC_LogInTest_001"/> -->
+			<class name = "com.learningmavenproject.testCases.TC_LoginDDT2_002"/>
 		</classes>
 
 	</test>

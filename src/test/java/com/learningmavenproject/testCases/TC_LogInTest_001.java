@@ -5,6 +5,10 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.learningmavenproject.pageObjects.LoginPage;
@@ -14,7 +18,7 @@ import com.learningmavenproject.pageObjects.LoginPage;
 public class TC_LogInTest_001 extends BaseClass
 {
 	@Test
-	public void loginTest()
+	public void loginTest() throws IOException
 	{
 		
 		logger.info("URL is opened");
@@ -26,15 +30,18 @@ public class TC_LogInTest_001 extends BaseClass
 		logger.info("Entered Password");
 		lp.clickSubmit();
 
-		if (driver.getTitle().equals("Guru99 Bank Manager HomePage"))
+		if (driver.getTitle().equals("Guru99 Bank Manager HomePage123"))
 		{
-		AssertJUnit.assertTrue(true);
+		Assert.assertTrue(true);
 		logger.info("Login Test Passed");
 
 	}
 		else {
-		AssertJUnit.assertTrue(false);
+		
+		captureScreen(driver, "Login Test");
+		Assert.assertTrue(false);
 		logger.info("Login Test failed");
+		
 
 		
 		}

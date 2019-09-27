@@ -47,3 +47,25 @@
 2019-09-26 23:34:25,830 [main] INFO LearningMavenProjectV1 - Entered UserName
 2019-09-26 23:34:25,922 [main] INFO LearningMavenProjectV1 - Entered Password
 2019-09-26 23:34:26,687 [main] INFO LearningMavenProjectV1 - Login Test Passed
+2019-09-27 00:39:56,000 [main] INFO LearningMavenProjectV1 - URL is opened
+2019-09-27 00:39:56,223 [main] INFO LearningMavenProjectV1 - Entered UserName
+2019-09-27 00:39:56,321 [main] INFO LearningMavenProjectV1 - Entered Password
+2019-09-27 11:04:12,389 [main] INFO LearningMavenProjectV1 - URL is opened
+2019-09-27 11:04:12,614 [main] INFO LearningMavenProjectV1 - Entered UserName
+2019-09-27 11:04:12,721 [main] INFO LearningMavenProjectV1 - Entered Password
+2019-09-27 12:01:51,069 [main] INFO LearningMavenProjectV1 - URL is opened
+2019-09-27 12:01:51,282 [main] INFO LearningMavenProjectV1 - Entered UserName
+2019-09-27 12:01:51,385 [main] INFO LearningMavenProjectV1 - Entered Password
+2019-09-27 12:03:05,367 [main] INFO LearningMavenProjectV1 - URL is opened
+2019-09-27 12:03:05,569 [main] INFO LearningMavenProjectV1 - Entered UserName
+2019-09-27 12:03:05,680 [main] INFO LearningMavenProjectV1 - Entered Password
+2019-09-27 17:36:54,035 [main] INFO LearningMavenProjectV1 - username provided
+2019-09-27 17:36:54,142 [main] INFO LearningMavenProjectV1 - password provided
+2019-09-27 17:36:54,989 [main] INFO LearningMavenProjectV1 - Login Passed
+2019-09-27 17:36:56,349 [main] INFO LearningMavenProjectV1 - username provided
+2019-09-27 17:36:56,426 [main] INFO LearningMavenProjectV1 - password provided
+2019-09-27 17:36:57,563 [main] INFO LearningMavenProjectV1 - username provided
+2019-09-27 17:36:57,650 [main] INFO LearningMavenProjectV1 - password provided
+2019-09-27 17:36:58,419 [main] INFO LearningMavenProjectV1 - Login Passed
+2019-09-27 17:36:59,816 [main] INFO LearningMavenProjectV1 - username provided
+2019-09-27 17:36:59,894 [main] INFO LearningMavenProjectV1 - password provided

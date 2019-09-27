@@ -58,7 +58,7 @@ public class Reporting extends TestListenerAdapter
 		logger=extent.createTest(tr.getName()); // create new entry in th report
 		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
 		
-		String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
+		String screenshotPath="/Users/sonysharma/eclipse-workspace/LearningMavenProjectV1/Screenshots/"+tr.getName()+".png";
 		
 		File f = new File(screenshotPath); 
 		
